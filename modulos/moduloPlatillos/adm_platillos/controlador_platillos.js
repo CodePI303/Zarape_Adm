@@ -14,7 +14,22 @@ function revisarEstatus() {
     cargarTablaAlimentos(estatusExterno);
     document.getElementById("txtEstatus1").textContent = checkboxProd.checked ? "Inactivo" : "Activo";
 }
-
+function validarCampos() {
+    let nombre = document.getElementById("nombreProducto").value.trim();    
+    let descripcion = document.getElementById("descripcionProducto").value.trim();
+    let precio = document.getElementById("precioProducto").value.trim();
+    let categoria = document.getElementById("categoriaPlatillos").value.trim();
+   
+    if (nombre === "" || descripcion === "" || precio === "" || categoria === "") {
+        Swal.fire({
+            icon: "error",
+            title: "Oops...",
+            text: "Formulario incompleto. Todos los campos deben ser llenados."
+        });
+    } else {
+        agregarAlimento();
+    }
+}
 function cargarTablaAlimentos(estatusExterno) {
     let datosTabla = document.getElementById("tabla");
     let renglon = "";
