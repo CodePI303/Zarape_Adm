@@ -1,0 +1,152 @@
+[
+    {
+        "alimento": {
+            "id_producto": "1",
+            "nombre_producto": "Tacos al pastor",
+            "descripcion": "Tortillas de maíz con carne de cerdo, piña asada, cebolla y cilantro.",
+            "foto": "---",
+            "precio": "165.00",
+            "categoriafk": {
+                "id_categoriafk": "1",
+                "descripcion_categoria": "Entradas",
+                "categoria": "A"
+            },
+            "estatus": "1"
+        }
+    },
+    {
+        "alimento": {
+            "id_producto": "2",
+            "nombre_producto": "Sopes",
+            "descripcion": "Tortillas gruesas de maíz con frijoles, carne desmenuzada, lechuga, crema, queso fresco y salsa.",
+            "foto": "---",
+            "precio": "190.00",
+            "categoriafk": {
+                "id_categoriafk": "1",
+                "descripcion_categoria": "Entradas",
+                "categoria": "A"
+            },
+            "estatus": "1"
+        }
+    },
+    {
+        "alimento": {
+            "id_producto": "3",
+            "nombre_producto": "Guacamole con totopos",
+            "descripcion": "Aguacate fresco molido con cebolla, cilantro, limón y totopos de maíz.",
+            "foto": "---",
+            "precio": "140.00",
+            "categoriafk": {
+                "id_categoriafk": "1",
+                "descripcion_categoria": "Entradas",
+                "categoria": "A"
+            },
+            "estatus": "1"
+        }
+    },
+    {
+        "alimento": {
+            "id_producto": "4",
+            "nombre_producto": "Ceviche de camarón",
+            "descripcion": "Camarones marinados en jugo de limón con jitomate, cebolla, cilantro y aguacate.",
+            "foto": "---",
+            "precio": "220.00",
+            "categoriafk": {
+                "id_categoriafk": "1",
+                "descripcion_categoria": "Entradas",
+                "categoria": "A"
+            },
+            "estatus": "1"
+        }
+    },
+    {
+        "alimento": {
+            "id_producto": "5",
+            "nombre_producto": "Sopa de tortilla",
+            "descripcion": "Sopa de caldo de pollo con tiras de tortilla frita, chile pasilla, crema, queso fresco y aguacate.",
+            "foto": "---",
+            "precio": "180.00",
+            "categoriafk": {
+                "id_categoriafk": "2",
+                "descripcion_categoria": "Sopas y Caldos",
+                "categoria": "A"
+            },
+            "estatus": "1"
+        }
+    },
+    {
+        "alimento": {
+            "id_producto": "6",
+            "nombre_producto": "Caldo de res",
+            "descripcion": "Caldo caliente con carne de res, papas, zanahorias y maíz.",
+            "foto": "---",
+            "precio": "210.00",
+            "categoriafk": {
+                "id_categoriafk": "2",
+                "descripcion_categoria": "Sopas y Caldos",
+                "categoria": "A"
+            },
+            "estatus": "1"
+        }
+    },
+    {
+        "alimento": {
+            "id_producto": "7",
+            "nombre_producto": "Pozole",
+            "descripcion": "Caldo de maíz hominy con carne de cerdo, servido con rábanos, lechuga, cebolla y limones.",
+            "foto": "---",
+            "precio": "200.00",
+            "categoriafk": {
+                "id_categoriafk": "2",
+                "descripcion_categoria": "Sopas y Caldos",
+                "categoria": "A"
+            },
+            "estatus": "1"
+        }
+    },
+    {
+        "alimento": {
+            "id_producto": "8",
+            "nombre_producto": "Pescado a la veracruzana",
+            "descripcion": "Filete de pescado en salsa de jitomate con aceitunas, alcaparras y chiles.",
+            "foto": "---",
+            "precio": "250.00",
+            "categoriafk": {
+                "id_categoriafk": "4",
+                "descripcion_categoria": "Platos Principales",
+                "categoria": "A"
+            },
+            "estatus": "1"
+        }
+    },
+    {
+        "alimento": {
+            "id_producto": "9",
+            "nombre_producto": "Enchiladas",
+            "descripcion": "Tortillas rellenas de carne o pollo, bañadas en salsa roja o verde, con queso y crema.",
+            "foto": "---",
+            "precio": "190.00",
+            "categoriafk": {
+                "id_categoriafk": "4",
+                "descripcion_categoria": "Platos Principales",
+                "categoria": "A"
+            },
+            "estatus": "1"
+        }
+    },
+    {
+        "alimento": {
+            "id_producto": "10",
+            "nombre_producto": "Frijoles refritos",
+            "descripcion": "Frijoles negros o pintos refritos con manteca de cerdo.",
+            "foto": "---",
+            "precio": "120.00",
+            "categoriafk": {
+                "id_categoriafk": "5",
+                "descripcion_categoria": "Acompañamientos",
+                "categoria": "A"
+            },
+            "estatus": "1"
+        }
+    }
+]

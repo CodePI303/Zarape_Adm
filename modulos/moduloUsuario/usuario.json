@@ -1,0 +1,156 @@
+[
+    {
+        "persona": {
+            "id_usuario": 1,
+            "nombre": "Paulina",
+            "telefono": "477-490-4567",
+            "ape_materno": "Nuñes",
+            "ape_paterno": "Sanchez"
+        },
+        "sucursal": {
+            "nombre_sucursal": "Sucursal Centro"
+        },
+        "usuario": "user_paulina",
+        "contraseña": "pass",
+        "estatus": 1
+    },
+    {
+        "persona": {
+            "id_usuario": 2,
+            "nombre": "Angeles",
+            "telefono": "477-260-3587",
+            "ape_materno": "Valadez",
+            "ape_paterno": "Olmos"
+        },
+        "sucursal": {
+            "nombre_sucursal": "Sucursal Norte"
+        },
+        "usuario": "user_Angeles",
+        "contraseña": "anzs",
+        "estatus": 1
+    },
+    {
+        "persona": {
+            "id_usuario": 3,
+            "nombre": "Uriel",
+            "telefono": "477-653-2456",
+            "ape_materno": "Segura",
+            "ape_paterno": "Herna"
+        },
+        "sucursal": {
+            "nombre_sucursal": "Sucursal Sur"
+        },
+
+        "usuario": "user_Uriel",
+        "contraseña": "uraa",
+        "estatus": 1
+    },
+    {
+        "persona": {
+            "id_usuario": 4,
+            "nombre": "Jaqueline",
+            "telefono": "677-290-6393",
+            "ape_materno": "Gonzalez",
+            "ape_paterno": "Garcia"
+        },
+        "sucursal": {
+            "nombre_sucursal": "Sucursal Este"
+        },
+        "usuario": "user_Jaqueline",
+        "contraseña": "jagarcia",
+        "estatus": 1
+    },
+    {
+        "persona": {
+            "id_usuario": 5,
+            "nombre": "Ramiro",
+            "telefono": "618-166-6308",
+            "ape_materno": "Gonzalez",
+            "ape_paterno": "Garcia"
+        },
+        "sucursal": {
+            "nombre_sucursal": "Sucursal Oeste"
+        },
+        "usuario": "user_ramiro",
+        "contraseña": "ragg",
+        "estatus": 1
+    },
+    {
+        "persona": {
+            "id_usuario": 6,
+            "nombre": "Mayra",
+            "telefono": "618-563-6543",
+            "ape_materno": "Sanchez",
+            "ape_paterno": "Villa"
+        },
+        "sucursal": {
+            "nombre_sucursal": "Sucursal Libertad"
+        },
+
+        "usuario": "user_mayra",
+        "contraseña": "masv",
+        "estatus": 1
+    },
+    {
+        "persona": {
+            "id_usuario": 7,
+            "nombre": "Abril",
+            "telefono": "677-563-7645",
+            "ape_materno": "Velazquez",
+            "ape_paterno": "Casas"
+        },
+        "sucursal": {
+            "nombre_sucursal": "Sucursal Azteca"
+        },
+        "usuario": "user_Abril",
+        "contraseña": "abvc",
+        "estatus": 1
+    },
+    {
+        "persona": {
+            "id_usuario": 8,
+            "nombre": "German",
+            "telefono": "677-123-4567",
+            "ape_materno": "Zavala",
+            "ape_paterno": "Madrid"
+        },
+        "sucursal": {
+            "nombre_sucursal": "Sucursal Moderna"
+        },
+
+        "usuario": "user_German",
+        "contraseña": "gezm",
+        "estatus": 1
+    },
+    {
+        "persona": {
+            "id_usuario": 9,
+            "nombre": "Kevin",
+            "telefono": "618-653-4321",
+            "ape_materno": "Rosales",
+            "ape_paterno": "Valdez"
+        },
+        "sucursal": {
+            "nombre_sucursal": "Sucursal Aurora"
+        },
+
+        "usuario": "user_Kevin",
+        "contraseña": "kerz",
+        "estatus": 0
+    },
+    {
+        "persona": {
+            "id_usuario": 10,
+            "nombre": "Marisol",
+            "telefono": "677-987-5432",
+            "ape_materno": "Rios",
+            "ape_paterno": "Vidaña"
+        },
+        "sucursal": {
+            "nombre_sucursal": "Sucursal Primavera"
+        },
+        "usuario": "user_Marisol",
+        "contraseña": "mavi",
+        "estatus": 0
+    }
+]

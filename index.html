@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Iniciar Sesion</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Huella de carbono">
+        <meta name="keywords" content="consumo, gasto de agua, generar basura">
+        <meta name="author" content="Academia de Programación ">
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <link href="style/bootstrap-5.3.0-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <script src="style/bootstrap-5.3.0-dist/js/bootstrap.bundle.js" type="text/javascript"></script>
+        <link href="style/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <script src="style/bootstrap/js/bootstrap.bundle.js" type="text/javascript"></script>
+        <script src="style/fontawesome-free-6.4.0-web/js/all.js" type="text/javascript"></script>
+        <link href="style/fontawesome-free-6.4.0-web/css/all.css" rel="stylesheet" type="text/css"/>
+        <link href="style/sweetalert2/sweetalert2.min.css" rel="stylesheet" type="text/css"/>
+        <script src="js/login.js" type="text/javascript"></script>
+        <style>
+            body {
+                background-color: #FA812F;
+            }
+        </style>
+    </head>
+    <br><br><br><br><br>
+    <div class="container mt-5 bg-grapefruit text-white" >
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card"style="background-color:#fef3e2">
+                    <div class="card-body bg-off white">
+                        <center><svg xmlns="http://www.w3.org/2000/svg" width="65" height="65" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16" color="orange">
+                            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                            <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+                            </svg></center>
+                        <form style="background-color:#fef3e2">
+                            <div class="mb-4">
+                                <label for="usuario" class="form-label"></label>
+                                <input type="text" class="form-control" id="usuario" name="usuario" required="" placeholder="Usuario">
+
+                            </div>
+                            <div class="mb-4">
+                                <label for="contrasena" class="form-label"></label>
+                                <input type="password" class="form-control" id="contrasena" name="contrasena" required="" placeholder="Contraseña">
+                            </div>
+                            <center>
+                                <button type="button" class="btn btn-primary" id="btnInicioSesion" style="background-color:#fa4032" onclick="login()">Iniciar Sesion</button>
+
+                            </center>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

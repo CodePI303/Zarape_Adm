@@ -1,0 +1,92 @@
+[
+    {
+        "Url": "http://www.sucursalcentro.com",
+        "Calle": "Av. Juárez",
+        "Nombre": "Sucursal Centro",
+        "Numero": "123",
+        "Colonia": "Centro",
+        "Horario": "Lunes a Viernes 8:00-18:00",
+        "Clave Sucursal": 1
+    },
+    {
+        "Url": "http://www.sucursalnorte.com",
+        "Calle": "Calle Reforma",
+        "Nombre": "Sucursal Norte",
+        "Numero": "456",
+        "Colonia": "Norte",
+        "Horario": "Lunes a Sábado 9:00-20:00",
+        "Clave Sucursal": 2
+    },
+    {
+        "Url": "http://www.sucursalsur.com",
+        "Calle": "Av. Insurgentes",
+        "Nombre": "Sucursal Sur",
+        "Numero": "789",
+        "Colonia": "Sur",
+        "Horario": "Lunes a Domingo 7:00-22:00",
+        "Clave Sucursal": 3
+    },
+    {
+        "Url": "http://www.sucursaleste.com",
+        "Calle": "Calle Primavera",
+        "Nombre": "Sucursal Este",
+        "Numero": "234",
+        "Colonia": "Este",
+        "Horario": "Lunes a Viernes 9:00-17:00",
+        "Clave Sucursal": 4
+    },
+    {
+        "Url": "http://www.sucursaloeste.com",
+        "Calle": "Av. Constitución",
+        "Nombre": "Sucursal Oeste",
+        "Numero": "567",
+        "Colonia": "Oeste",
+        "Horario": "Lunes a Sábado 10:00-19:00",
+        "Clave Sucursal": 5
+    },
+    {
+        "Url": "http://www.sucursallibertad.com",
+        "Calle": "Calle Independencia",
+        "Nombre": "Sucursal Libertad",
+        "Numero": "890",
+        "Colonia": "Libertad",
+        "Horario": "Lunes a Domingo 8:00-20:00",
+        "Clave Sucursal": 6
+    },
+    {
+        "Url": "http://www.sucursalazteca.com",
+        "Calle": "Av. Hidalgo",
+        "Nombre": "Sucursal Azteca",
+        "Numero": "321",
+        "Colonia": "Azteca",
+        "Horario": "Lunes a Viernes 7:30-18:30",
+        "Clave Sucursal": 7
+    },
+    {
+        "Url": "http://www.sucursalmoderna.com",
+        "Calle": "Calle Revolución",
+        "Nombre": "Sucursal Moderna",
+        "Numero": "654",
+        "Colonia": "Moderna",
+        "Horario": "Lunes a Sábado 9:30-19:30",
+        "Clave Sucursal": 8
+    },
+    {
+        "Url": "http://www.sucursalauroa.com",
+        "Calle": "Av. Benito Juárez",
+        "Nombre": "Sucursal Aurora",
+        "Numero": "987",
+        "Colonia": "Aurora",
+        "Horario": "Lunes a Domingo 7:00-21:00",
+        "Clave Sucursal": 9
+    },
+    {
+        "Url": "http://www.sucursalprimavera.com",
+        "Calle": "Calle Zaragoza",
+        "Nombre": "Sucursal Primavera",
+        "Numero": "432",
+        "Colonia": "Primavera",
+        "Horario": "Lunes a Viernes 8:00-17:30",
+        "Clave Sucursal": 10
+    }
+]

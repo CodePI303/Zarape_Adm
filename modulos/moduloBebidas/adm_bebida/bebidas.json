@@ -1,0 +1,152 @@
+[
+    {
+        "bebida": {
+            "id_producto": "11",
+            "nombre_producto": "Agua",
+            "descripcion": "Agua natural simple",
+            "foto": "---",
+            "precio": "20.00",
+            "categoriafk": {
+                "id_categoriafk": "7",
+                "descripcion_categoria": "Bebidas sin alcohol",
+                "categoria": "B"
+            },
+            "estatus": "1"
+        }
+    },
+    {
+        "bebida": {
+            "id_producto": "12",
+            "nombre_producto": "Coca Cola",
+            "descripcion": "Refresco de cola",
+            "foto": "---",
+            "precio": "25.00",
+            "categoriafk": {
+                "id_categoriafk": "7",
+                "descripcion_categoria": "Bebidas sin alcohol",
+                "categoria": "B"
+            },
+            "estatus": "1"
+        }
+    },
+    {
+        "bebida": {
+            "id_producto": "13",
+            "nombre_producto": "Champurrado",
+            "descripcion": "Bebida caliente a base de masa de maíz y chocolate",
+            "foto": "---",
+            "precio": "30.00",
+            "categoriafk": {
+                "id_categoriafk": "7",
+                "descripcion_categoria": "Bebidas sin alcohol",
+                "categoria": "B"
+            },
+            "estatus": "1"
+        }
+    },
+    {
+        "bebida": {
+            "id_producto": "14",
+            "nombre_producto": "Cerveza Corona",
+            "descripcion": "Cerveza mexicana clara",
+            "foto": "---",
+            "precio": "35.00",
+            "categoriafk": {
+                "id_categoriafk": "8",
+                "descripcion_categoria": "Bebidas alcohólicas",
+                "categoria": "B"
+            },
+            "estatus": "1"
+        }
+    },
+    {
+        "bebida": {
+            "id_producto": "15",
+            "nombre_producto": "Michelada",
+            "descripcion": "Cerveza con jugo de limón, salsa inglesa, salsa picante y sal en el borde del vaso",
+            "foto": "---",
+            "precio": "50.00",
+            "categoriafk": {
+                "id_categoriafk": "8",
+                "descripcion_categoria": "Bebidas alcohólicas",
+                "categoria": "B"
+            },
+            "estatus": "1"
+        }
+    },
+    {
+        "bebida": {
+            "id_producto": "16",
+            "nombre_producto": "Pulque",
+            "descripcion": "Bebida alcohólica tradicional mexicana hecha de la fermentación del aguamiel del maguey",
+            "foto": "---",
+            "precio": "60.00",
+            "categoriafk": {
+                "id_categoriafk": "8",
+                "descripcion_categoria": "Bebidas alcohólicas",
+                "categoria": "B"
+            },
+            "estatus": "1"
+        }
+    },
+    {
+        "bebida": {
+            "id_producto": "17",
+            "nombre_producto": "Tepache",
+            "descripcion": "Bebida fermentada hecha con cáscara de piña, piloncillo (panela) y especias como clavo y canela",
+            "foto": "---",
+            "precio": "40.00",
+            "categoriafk": {
+                "id_categoriafk": "8",
+                "descripcion_categoria": "Bebidas alcohólicas",
+                "categoria": "B"
+            },
+            "estatus": "1"
+        }
+    },
+    {
+        "bebida": {
+            "id_producto": "18",
+            "nombre_producto": "Agua de Piña",
+            "descripcion": "Bebida natural de agua con sabor a piña",
+            "foto": "---",
+            "precio": "20.00",
+            "categoriafk": {
+                "id_categoriafk": "9",
+                "descripcion_categoria": "Bebidas para niños",
+                "categoria": "B"
+            },
+            "estatus": "1"
+        }
+    },
+    {
+        "bebida": {
+            "id_producto": "19",
+            "nombre_producto": "Agua de Horchata",
+            "descripcion": "Bebida natural de agua con sabor a horchata tradicional",
+            "foto": "---",
+            "precio": "25.00",
+            "categoriafk": {
+                "id_categoriafk": "9",
+                "descripcion_categoria": "Bebidas para niños",
+                "categoria": "B"
+            },
+            "estatus": "1"
+        }
+    },
+    {
+        "bebida": {
+            "id_producto": "20",
+            "nombre_producto": "Agua de Tamarindo",
+            "descripcion": "Bebida refrescante hecha con pulpa de tamarindo, agua y azúcar.",
+            "foto": "---",
+            "precio": "25.00",
+            "categoriafk": {
+                "id_categoriafk": "9",
+                "descripcion_categoria": "Bebidas para niños",
+                "categoria": "B"
+            },
+            "estatus": "1"
+        }
+    }
+]

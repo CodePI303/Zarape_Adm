@@ -1,0 +1,162 @@
+[
+    {
+        "combo": {
+            "id_combo": 1,
+            "nombre_combo": "Sabor veracruzano con Toque Refrescante",
+            "foto": "---",
+            "descripcion": "Filete de pescado estilo veracruzano con agua de horchata",
+            "precio": 200.0,
+            "platillos": "Pescado a la veraruzana",
+            "bebidas": "Agua de Horchata",
+            "checkboxes": [
+                {"type": "platillo", "value": "Pescado a la veracruzana"},
+                {"type": "bebida", "value": "Agua de Horchata"}
+            ],
+            "estatus": 1
+        }
+    },
+    {
+        "combo": {
+            "id_combo": 2,
+            "nombre_combo": "Combo picante",
+            "foto": "---",
+            "descripcion": "Tortillas rellenas de pollo o carne con michelada",
+            "precio": 170.0,
+            "platillos": "Enchiladas",
+            "bebidas": "Michelada",
+            "checkboxes": [
+                {"type": "platillo", "value": "Enchiladas"},
+                {"type": "bebida", "value": "Michelada"}
+            ],
+            "estatus": 1
+        }
+    },
+    {
+        "combo": {
+            "id_combo": 3,
+            "nombre_combo": "Fiesta mexicana",
+            "foto": "---",
+            "descripcion": "Caldo de maíz con carne de raíz con chapurrado",
+            "precio": 200.0,
+            "platillos": "Pozole",
+            "bebidas": "Champurrado",
+            "checkboxes": [
+                {"type": "platillo", "value": "Pozole"},
+                {"type": "bebida", "value": "Champurrado"}
+            ],
+            "estatus": 1
+        }
+    },
+    {
+        "combo": {
+            "id_combo": 4,
+            "nombre_combo": "Delicias mexicanas",
+            "foto": "---",
+            "descripcion": "Tortillas de maíz con cerdo y coca cola",
+            "precio": 165.0,
+            "platillos": "Tacos al pastor",
+            "bebidas": "Coca Cola",
+            "checkboxes": [
+                {"type": "platillo", "value": "Tacos al pastor"},
+                {"type": "bebida", "value": "Coca Cola"}
+            ],
+            "estatus": 1
+        }
+    },
+    {
+        "combo": {
+            "id_combo": 5,
+            "nombre_combo": "Festí mexicano",
+            "foto": "---",
+            "descripcion": "Sopa de caldo de pollo con tiras de tortillas frías con agua de tamarindo",
+            "precio": 175.0,
+            "platillos": "Sopa de tortilla",
+            "bebidas": "Agua de Tamarindo",
+            "checkboxes": [
+                {"type": "platillo", "value": "Sopa de tortilla"},
+                {"type": "bebida", "value": "Agua de Tamarindo"}
+            ],
+            "estatus": 1
+        }
+    },
+    {
+        "combo": {
+            "id_combo": 6,
+            "nombre_combo": "Fiestas tradicionales",
+            "foto": "---",
+            "descripcion": "Camarones marinados en jugo de limón con agua de piña",
+            "precio": 200.0,
+            "platillos": "Ceviche de camarón",
+            "bebidas": "Agua de Piña",
+            "checkboxes": [
+                {"type": "platillo", "value": "Ceviche de camarón"},
+                {"type": "bebida", "value": "Agua de Piña"}
+            ],
+            "estatus": 1
+        }
+    },
+    {
+        "combo": {
+            "id_combo": 7,
+            "nombre_combo": "Mexicano tradicional",
+            "foto": "---",
+            "descripcion": "Tortillas gruesas de maíz con frijoles con champurrado",
+            "precio": 190.0,
+            "platillos": "Sopes",
+            "bebidas": "Champurrado",
+            "checkboxes": [
+                {"type": "platillo", "value": "Sopes"},
+                {"type": "bebida", "value": "Champurrado"}
+            ],
+            "estatus": 1
+        }
+    },
+    {
+        "combo": {
+            "id_combo": 8,
+            "nombre_combo": "Mexico en un plato",
+            "foto": "---",
+            "descripcion": "Caldo caliente con carne de res y tepache",
+            "precio": 215.0,
+            "platillos": "Caldo de res",
+            "bebidas": "Tepache",
+            "checkboxes": [
+                {"type": "platillo", "value": "Caldo de res"},
+                {"type": "bebida", "value": "Tepache"}
+            ],
+            "estatus": 1
+        }
+    },
+    {
+        "combo": {
+            "id_combo": 9,
+            "nombre_combo": "Tierra azteca",
+            "foto": "---",
+            "descripcion": "Aguacate fresco molido con cebolla y tepache",
+            "precio": 150.0,
+            "platillos": "Guacamole con totopos",
+            "bebidas": "Tepache",
+            "checkboxes": [
+                {"type": "platillo", "value": "Guacamole con totopos"},
+                {"type": "bebida", "value": "Tepache"}
+            ],
+            "estatus": 1
+        }
+    },
+    {
+        "combo": {
+            "id_combo": 10,
+            "nombre_combo": "Saborcito mexicano",
+            "foto": "---",
+            "descripcion": "Frijoles negros refritos y pulque",
+            "precio": 115.0,
+            "platillos": "Frijoles fritos",
+            "bebidas": "Pulque",
+            "checkboxes": [
+                {"type": "platillo", "value": "Frijoles refritos"},
+                {"type": "bebida", "value": "Pulque"}
+            ],
+            "estatus": 1
+        }
+    }
+]
