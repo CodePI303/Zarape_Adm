@@ -48,7 +48,24 @@ function seleccionarUsuario(indice) {
     usuarioSeleccionado = indice;
 }
 
+function validarCampos() {
+    let nombre = document.getElementById("nombreUsuario").value.trim();
+    let apellidoPaterno = document.getElementById("apellidoPaterno").value.trim();
+    let apellidoMaterno = document.getElementById("apellidoMaterno").value.trim();
+    let telefono = document.getElementById("telefono").value.trim();
+    let sucursal = document.getElementById("txtSucursal").value.trim();
 
+   
+    if (nombre === "" || apellidoPaterno === "" || apellidoMaterno === "" || telefono === "" || sucursal === "") {
+        Swal.fire({
+            icon: "error",
+            title: "Oops...",
+            text: "Formulario incompleto. Todos los campos deben ser llenados."
+        });
+    } else {
+        addUsers();
+    }
+}
 
 function addUsers() {
     let nuevoUsuario = {};
