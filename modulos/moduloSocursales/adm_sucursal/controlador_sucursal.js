@@ -10,9 +10,18 @@ fetch("sucursal.json")
 
 function revisarEstatus() {
     let checkboxProd = document.getElementById("switch-label");
-    let estatusExterno = checkboxProd.checked ? 0 : 1; 
-    cargarTablaSucursales(estatusExterno);
-    document.getElementById("txtEstatus1").textContent = checkboxProd.checked ? "Inactivo" : "Activo";
+    let textI = document.getElementById("textI");
+    let textA = document.getElementById("textA");
+    if (checkboxProd.checked) {
+        loadTableUser(0);
+        textI.style.display = "block";
+
+        textA.style.display = "none";
+    } else {
+        loadTableUser(1);
+        textI.style.display = "none";
+        textA.style.display = "block";
+    }
 }
 
 function cargarTablaSucursales() {
