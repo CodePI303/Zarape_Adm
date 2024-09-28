@@ -13,12 +13,12 @@ function revisarEstatus() {
     let textI = document.getElementById("textI");
     let textA = document.getElementById("textA");
     if (checkboxProd.checked) {
-        loadTableUser(0);
+        cargarTablaSucursales(0);
         textI.style.display = "block";
 
         textA.style.display = "none";
     } else {
-        loadTableUser(1);
+        cargarTablaSucursales(1);
         textI.style.display = "none";
         textA.style.display = "block";
     }
