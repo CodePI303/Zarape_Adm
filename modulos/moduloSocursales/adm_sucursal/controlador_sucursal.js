@@ -121,7 +121,7 @@ function limpiar() {
     document.getElementById("numeroSucursal").value = "";
 }
 
-function buscar() {
+function buscarSucursal() {
     let buscar = document.getElementById("campoBusqueda").value.toLowerCase();
     let cuerpo = "";
     let tieneActivo = false;
