@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title>Administrar Usuarios</title>
+        <title>Administrar Clientes</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
@@ -73,34 +73,53 @@
             <!-- Page Content -->
             <div id="content" style="background-color: #FEF3E2;" class="row">
                 <div class="container-fluid" style="background-color: #FA4032; height: 40px; text-align: center">
-                    <h3 style="color: white;">Administrar Usuarios</h3>
+                    <h3 style="color: white;">Administrar Clientes</h3>
                 </div>
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-md-6">
                             <div class="col">
-                                <h2>Registro de Empleados</h2>
+                                <h2>Registro de Clientes</h2>
                                 <form id="formulario">
                                     <div>
                                         <label for="nombreUsuario" class="form-label">Nombre</label>
                                         <input type="text" class="form-control" id="nombreUsuario" name="nombre" placeholder="Ingresa Nombre">
                                     </div>
                                     <div>
-                                        <label for="apellidoPaterno" class="form-label">Apellido Paterno</label>
+                                        <label for="apellidoPaterno" class="form-label">Apellidos</label>
                                         <input type="text" class="form-control" id="apellidoPaterno" name="apellidoPaterno" placeholder="Ingresa Apellido Paterno">
-                                    </div>
-                                    <div>
-                                        <label for="apellidoMaterno" class="form-label">Apellido Materno</label>
-                                        <input type="text" class="form-control" id="apellidoMaterno" name="apellidoMaterno" placeholder="Ingresa Apellido Materno">
                                     </div>
                                     <div>
                                         <label for="telefono" class="form-label">Telefono</label>
                                         <input type="text" class="form-control" id="telefono" name="telefono" placeholder="Telefono">
                                     </div>
+                                    <div>
+                                        <label for="telefono" class="form-label">Usuario</label>
+                                        <input type="text" class="form-control" id="telefono" name="telefono" placeholder="Telefono">
+                                    </div>
+                                    <div>
+                                        <label for="telefono" class="form-label">Contraseña</label>
+                                        <input type="text" class="form-control" id="telefono" name="telefono" placeholder="Telefono">
+                                    </div>
                                     <div class="mb-3">
-                                        <label for="txtSucursal" class="form-label">Sucursal</label>
+                                        <label for="txtSucursal" class="form-label">Estado</label>
                                         <select name="txtSucursal" class="form-control" id="txtSucursal">
-                                            <option value="Sucursal Centro">Sucursal Centro</option>
+                                            <option value="Sucursal Centro">Guanajuato</option>
+                                            <option value="Sucursal Sur">Sucursal Sur</option>
+                                            <option value="Sucursal Norte">Sucursal Norte</option>
+                                            <option value="Sucursal Oeste">Sucursal Oeste</option>
+                                            <option value="Sucursal Este">Sucursal Este</option>
+                                            <option value="Sucursal Libertad">Sucursal Libertad</option>
+                                            <option value="Sucursal Moderna">Sucursal Moderna</option>
+                                            <option value="Sucursal Azteca">Sucursal Azteca</option>
+                                            <option value="Sucursal Aurora">Sucursal Aurora</option>
+                                            <option value="Sucursal Primavera">Sucursal Primavera</option>
+                                        </select>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="txtSucursal" class="form-label">Ciudad</label>
+                                        <select name="txtSucursal" class="form-control" id="txtSucursal">
+                                            <option value="Sucursal Centro">León</option>
                                             <option value="Sucursal Sur">Sucursal Sur</option>
                                             <option value="Sucursal Norte">Sucursal Norte</option>
                                             <option value="Sucursal Oeste">Sucursal Oeste</option>
@@ -124,7 +143,7 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <h2>Lista de Empleados</h2>
+                            <h2>Lista de Clientes</h2>
                             <div class=" col-6 table-container p-2">
 
                                 <div class="input-group-append p-0 ">
